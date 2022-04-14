@@ -1,0 +1,176 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    .fa-arrow-down {
+          margin-top: 20px;
+          font-size: 30px;
+    }
+
+    [data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+      transition-duration:3s !important;
+    }
+    
+    body {
+      font-size: 1.3rem;
+      font-family: 'Montserrat', sans-serif;
+      background: #f9f9f9;
+
+    }
+    
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+    
+    .container {
+      max-width: 1400px;
+      margin: auto;
+
+      padding: 0 2rem;
+    }
+    
+    
+    img {
+      width: 100%;
+    }
+       
+    .card h3 {
+      margin-bottom: 2rem;
+    }
+    
+    .card img {
+      height: 600px;
+    }
+    
+    .card > div {
+      padding: 5rem 2rem;
+    }
+    
+    .card:nth-child(even) img {
+      order: 2;
+    }
+    
+    
+    .btn {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      padding: 0.8rem 1.8rem;
+      margin-top: 2rem;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      opacity: 0.8;
+    }
+    
+    
+
+            /*SUMMERY*/
+    
+            .summery__title{
+                  font-size: 38px;
+                  font-weight:600;
+                  line-height: 1.25;
+                  margin: 28px 0;
+                  text-align: center;
+                }
+            
+                .summery__discription{
+                  font-size: 18px;
+                  font-weight: 500;
+                  color: #767676;
+                  line-height: 1.5;
+                  margin: 28px auto;
+                  padding: 1rem;
+                  box-sizing: border-box;
+                }
+            /*FEATURE*/
+    
+     .section--feature {
+      padding-top: 50px;
+      height: 100vh;
+    }
+    
+     .section--feature .summery {
+       max-width: 100%;
+       margin: 30px auto;
+       text-align: center;
+    
+     }
+
+     .section--feature .my-profile {
+       max-width: 450px;
+       margin: 20px auto;
+     
+     }
+     .section--feature .my-profile img{
+         width:250px;
+         display: block;
+         margin:0 auto;
+         border-radius: 9999px;
+        }
+    
+        .my-profile .btn {
+            width:150px;
+            display: block;
+            margin:0 auto;
+            text-align: center;
+        }
+        .section--feature .my-profile a {
+          margin-bottom: 3px;
+        }
+        
+      .section {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            
+      }
+
+      .feature-title {
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin: 10px;
+            text-align: left;
+        }
+
+        .feature-box{
+              margin-bottom: 50px;
+              padding: 20px;
+              border-left:  5px solid #ccc;
+        }
+
+
+        .feature-box li {
+              margin: 15px;
+              padding: 5px;
+              text-align: left;
+        }
+
+     
+
+      @media(max-width:1024px) {
+            .section {
+                  display: block;
+            }
+
+            .section--feature {
+              padding-top: 50px;
+              height: auto;
+           
+            }
+
+            .section--feature .my-profile {
+                  margin-bottom: 82px;
+                }
+
+             .section--feature .my-profile p {
+                  opacity: 1 !important;
+                }
+      
+          }
